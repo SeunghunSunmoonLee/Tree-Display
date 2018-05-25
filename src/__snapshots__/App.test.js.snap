@@ -1,0 +1,920 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Node Tree App renders correct Node Tree 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <div
+      className="App-header"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+      <h2
+        style={
+          Object {
+            "color": "white !important",
+          }
+        }
+      >
+        Tree-Selector with Unflattener for flat hierarchical data
+      </h2>
+    </div>
+    <Row
+      gutter={0}
+      justify="center"
+      type="flex"
+    >
+      <div
+        className="ant-row-flex ant-row-flex-center"
+      >
+        <Col
+          key=".0"
+        >
+          <div
+            className=""
+          >
+            <Tree
+              autoExpandParent={true}
+              checkable={true}
+              checkedKeys={
+                Array [
+                  "0",
+                ]
+              }
+              draggable={true}
+              expandedKeys={
+                Array [
+                  "0",
+                  "3",
+                ]
+              }
+              onCheck={[Function]}
+              onDragEnter={[Function]}
+              onDrop={[Function]}
+              onExpand={[Function]}
+              onSelect={[Function]}
+              openAnimation={
+                Object {
+                  "appear": [Function],
+                  "enter": [Function],
+                  "leave": [Function],
+                }
+              }
+              prefixCls="ant-tree"
+              selectedKeys={Array []}
+              showIcon={false}
+            >
+              <Tree
+                autoExpandParent={true}
+                checkStrictly={false}
+                checkable={
+                  <span
+                    className="ant-tree-checkbox-inner"
+                  />
+                }
+                checkedKeys={
+                  Array [
+                    "0",
+                  ]
+                }
+                defaultCheckedKeys={Array []}
+                defaultExpandAll={false}
+                defaultExpandParent={true}
+                defaultExpandedKeys={Array []}
+                defaultSelectedKeys={Array []}
+                disabled={false}
+                draggable={true}
+                expandedKeys={
+                  Array [
+                    "0",
+                    "3",
+                  ]
+                }
+                multiple={false}
+                onCheck={[Function]}
+                onDragEnd={null}
+                onDragEnter={[Function]}
+                onDragLeave={null}
+                onDragOver={null}
+                onDragStart={null}
+                onDrop={[Function]}
+                onExpand={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                onSelect={[Function]}
+                openAnimation={
+                  Object {
+                    "appear": [Function],
+                    "enter": [Function],
+                    "leave": [Function],
+                  }
+                }
+                prefixCls="ant-tree"
+                selectable={true}
+                selectedKeys={Array []}
+                showIcon={false}
+                showLine={false}
+              >
+                <ul
+                  className="ant-tree"
+                  role="tree-node"
+                  unselectable="on"
+                >
+                  <TreeNode
+                    checked={true}
+                    dragOver={false}
+                    dragOverGapBottom={false}
+                    dragOverGapTop={false}
+                    eventKey="0"
+                    expanded={true}
+                    halfChecked={false}
+                    key=".$0"
+                    pos="0-0"
+                    selected={false}
+                    title="aaa"
+                  >
+                    <li
+                      className=""
+                      onDragEnd={[Function]}
+                      onDragEnter={[Function]}
+                      onDragLeave={[Function]}
+                      onDragOver={[Function]}
+                      onDrop={[Function]}
+                    >
+                      <span
+                        className="ant-tree-switcher ant-tree-switcher_open"
+                        onClick={[Function]}
+                      />
+                      <span
+                        className="ant-tree-checkbox ant-tree-checkbox-checked"
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="ant-tree-checkbox-inner"
+                        />
+                      </span>
+                      <span
+                        aria-grabbed={true}
+                        className="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open draggable"
+                        draggable={true}
+                        onClick={[Function]}
+                        onContextMenu={[Function]}
+                        onDragStart={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        title="aaa"
+                      >
+                        <span
+                          className="ant-tree-title"
+                        >
+                          aaa
+                        </span>
+                      </span>
+                      <Animate
+                        animation={
+                          Object {
+                            "appear": [Function],
+                            "enter": [Function],
+                            "leave": [Function],
+                          }
+                        }
+                        component=""
+                        componentProps={Object {}}
+                        onAppear={[Function]}
+                        onEnd={[Function]}
+                        onEnter={[Function]}
+                        onLeave={[Function]}
+                        showProp="data-expanded"
+                        transitionAppear={true}
+                        transitionEnter={true}
+                        transitionLeave={true}
+                      >
+                        <AnimateChild
+                          animation={
+                            Object {
+                              "appear": [Function],
+                              "enter": [Function],
+                              "leave": [Function],
+                            }
+                          }
+                          key="rc_animate_1527258663590"
+                          transitionAppear={true}
+                          transitionEnter={true}
+                          transitionLeave={true}
+                        >
+                          <ul
+                            className="ant-tree-child-tree ant-tree-child-tree-open"
+                            data-expanded={true}
+                            key="rc_animate_1527258663590"
+                          >
+                            <TreeNode
+                              checked={true}
+                              dragOver={false}
+                              dragOverGapBottom={false}
+                              dragOverGapTop={false}
+                              eventKey="1"
+                              expanded={false}
+                              halfChecked={false}
+                              key=".$1"
+                              pos="0-0-0"
+                              selected={false}
+                              title="bbb"
+                            >
+                              <li
+                                className=""
+                                onDragEnd={[Function]}
+                                onDragEnter={[Function]}
+                                onDragLeave={[Function]}
+                                onDragOver={[Function]}
+                                onDrop={[Function]}
+                              >
+                                <span
+                                  className="ant-tree-switcher ant-tree-switcher-noop"
+                                />
+                                <span
+                                  className="ant-tree-checkbox ant-tree-checkbox-checked"
+                                  onClick={[Function]}
+                                >
+                                  <span
+                                    className="ant-tree-checkbox-inner"
+                                  />
+                                </span>
+                                <span
+                                  aria-grabbed={true}
+                                  className="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal draggable"
+                                  draggable={true}
+                                  onClick={[Function]}
+                                  onContextMenu={[Function]}
+                                  onDragStart={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  title="bbb"
+                                >
+                                  <span
+                                    className="ant-tree-title"
+                                  >
+                                    bbb
+                                  </span>
+                                </span>
+                              </li>
+                            </TreeNode>
+                            <TreeNode
+                              checked={true}
+                              dragOver={false}
+                              dragOverGapBottom={false}
+                              dragOverGapTop={false}
+                              eventKey="2"
+                              expanded={false}
+                              halfChecked={false}
+                              key=".$2"
+                              pos="0-0-1"
+                              selected={false}
+                              title="ccc"
+                            >
+                              <li
+                                className=""
+                                onDragEnd={[Function]}
+                                onDragEnter={[Function]}
+                                onDragLeave={[Function]}
+                                onDragOver={[Function]}
+                                onDrop={[Function]}
+                              >
+                                <span
+                                  className="ant-tree-switcher ant-tree-switcher-noop"
+                                />
+                                <span
+                                  className="ant-tree-checkbox ant-tree-checkbox-checked"
+                                  onClick={[Function]}
+                                >
+                                  <span
+                                    className="ant-tree-checkbox-inner"
+                                  />
+                                </span>
+                                <span
+                                  aria-grabbed={true}
+                                  className="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal draggable"
+                                  draggable={true}
+                                  onClick={[Function]}
+                                  onContextMenu={[Function]}
+                                  onDragStart={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  title="ccc"
+                                >
+                                  <span
+                                    className="ant-tree-title"
+                                  >
+                                    ccc
+                                  </span>
+                                </span>
+                              </li>
+                            </TreeNode>
+                          </ul>
+                        </AnimateChild>
+                      </Animate>
+                    </li>
+                  </TreeNode>
+                  <TreeNode
+                    checked={false}
+                    dragOver={false}
+                    dragOverGapBottom={false}
+                    dragOverGapTop={false}
+                    eventKey="3"
+                    expanded={true}
+                    halfChecked={false}
+                    key=".$3"
+                    pos="0-1"
+                    selected={false}
+                    title="ddd"
+                  >
+                    <li
+                      className=""
+                      onDragEnd={[Function]}
+                      onDragEnter={[Function]}
+                      onDragLeave={[Function]}
+                      onDragOver={[Function]}
+                      onDrop={[Function]}
+                    >
+                      <span
+                        className="ant-tree-switcher ant-tree-switcher_open"
+                        onClick={[Function]}
+                      />
+                      <span
+                        className="ant-tree-checkbox"
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="ant-tree-checkbox-inner"
+                        />
+                      </span>
+                      <span
+                        aria-grabbed={true}
+                        className="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open draggable"
+                        draggable={true}
+                        onClick={[Function]}
+                        onContextMenu={[Function]}
+                        onDragStart={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        title="ddd"
+                      >
+                        <span
+                          className="ant-tree-title"
+                        >
+                          ddd
+                        </span>
+                      </span>
+                      <Animate
+                        animation={
+                          Object {
+                            "appear": [Function],
+                            "enter": [Function],
+                            "leave": [Function],
+                          }
+                        }
+                        component=""
+                        componentProps={Object {}}
+                        onAppear={[Function]}
+                        onEnd={[Function]}
+                        onEnter={[Function]}
+                        onLeave={[Function]}
+                        showProp="data-expanded"
+                        transitionAppear={true}
+                        transitionEnter={true}
+                        transitionLeave={true}
+                      >
+                        <AnimateChild
+                          animation={
+                            Object {
+                              "appear": [Function],
+                              "enter": [Function],
+                              "leave": [Function],
+                            }
+                          }
+                          key="rc_animate_1527258663590"
+                          transitionAppear={true}
+                          transitionEnter={true}
+                          transitionLeave={true}
+                        >
+                          <ul
+                            className="ant-tree-child-tree ant-tree-child-tree-open"
+                            data-expanded={true}
+                            key="rc_animate_1527258663590"
+                          >
+                            <TreeNode
+                              checked={false}
+                              dragOver={false}
+                              dragOverGapBottom={false}
+                              dragOverGapTop={false}
+                              eventKey="4"
+                              expanded={false}
+                              halfChecked={false}
+                              key=".$4"
+                              pos="0-1-0"
+                              selected={false}
+                              title="eee"
+                            >
+                              <li
+                                className=""
+                                onDragEnd={[Function]}
+                                onDragEnter={[Function]}
+                                onDragLeave={[Function]}
+                                onDragOver={[Function]}
+                                onDrop={[Function]}
+                              >
+                                <span
+                                  className="ant-tree-switcher ant-tree-switcher-noop"
+                                />
+                                <span
+                                  className="ant-tree-checkbox"
+                                  onClick={[Function]}
+                                >
+                                  <span
+                                    className="ant-tree-checkbox-inner"
+                                  />
+                                </span>
+                                <span
+                                  aria-grabbed={true}
+                                  className="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal draggable"
+                                  draggable={true}
+                                  onClick={[Function]}
+                                  onContextMenu={[Function]}
+                                  onDragStart={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  title="eee"
+                                >
+                                  <span
+                                    className="ant-tree-title"
+                                  >
+                                    eee
+                                  </span>
+                                </span>
+                              </li>
+                            </TreeNode>
+                            <TreeNode
+                              checked={false}
+                              dragOver={false}
+                              dragOverGapBottom={false}
+                              dragOverGapTop={false}
+                              eventKey="5"
+                              expanded={false}
+                              halfChecked={false}
+                              key=".$5"
+                              pos="0-1-1"
+                              selected={false}
+                              title="fff"
+                            >
+                              <li
+                                className=""
+                                onDragEnd={[Function]}
+                                onDragEnter={[Function]}
+                                onDragLeave={[Function]}
+                                onDragOver={[Function]}
+                                onDrop={[Function]}
+                              >
+                                <span
+                                  className="ant-tree-switcher ant-tree-switcher-noop"
+                                />
+                                <span
+                                  className="ant-tree-checkbox"
+                                  onClick={[Function]}
+                                >
+                                  <span
+                                    className="ant-tree-checkbox-inner"
+                                  />
+                                </span>
+                                <span
+                                  aria-grabbed={true}
+                                  className="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal draggable"
+                                  draggable={true}
+                                  onClick={[Function]}
+                                  onContextMenu={[Function]}
+                                  onDragStart={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  title="fff"
+                                >
+                                  <span
+                                    className="ant-tree-title"
+                                  >
+                                    fff
+                                  </span>
+                                </span>
+                              </li>
+                            </TreeNode>
+                            <TreeNode
+                              checked={false}
+                              dragOver={false}
+                              dragOverGapBottom={false}
+                              dragOverGapTop={false}
+                              eventKey="6"
+                              expanded={false}
+                              halfChecked={false}
+                              key=".$6"
+                              pos="0-1-2"
+                              selected={false}
+                              title="ggg"
+                            >
+                              <li
+                                className=""
+                                onDragEnd={[Function]}
+                                onDragEnter={[Function]}
+                                onDragLeave={[Function]}
+                                onDragOver={[Function]}
+                                onDrop={[Function]}
+                              >
+                                <span
+                                  className="ant-tree-switcher ant-tree-switcher-noop"
+                                />
+                                <span
+                                  className="ant-tree-checkbox"
+                                  onClick={[Function]}
+                                >
+                                  <span
+                                    className="ant-tree-checkbox-inner"
+                                  />
+                                </span>
+                                <span
+                                  aria-grabbed={true}
+                                  className="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal draggable"
+                                  draggable={true}
+                                  onClick={[Function]}
+                                  onContextMenu={[Function]}
+                                  onDragStart={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  title="ggg"
+                                >
+                                  <span
+                                    className="ant-tree-title"
+                                  >
+                                    ggg
+                                  </span>
+                                </span>
+                              </li>
+                            </TreeNode>
+                          </ul>
+                        </AnimateChild>
+                      </Animate>
+                    </li>
+                  </TreeNode>
+                  <TreeNode
+                    checked={false}
+                    dragOver={false}
+                    dragOverGapBottom={false}
+                    dragOverGapTop={false}
+                    eventKey="7"
+                    expanded={false}
+                    halfChecked={false}
+                    key=".$7"
+                    pos="0-2"
+                    selected={false}
+                    title="hhh"
+                  >
+                    <li
+                      className=""
+                      onDragEnd={[Function]}
+                      onDragEnter={[Function]}
+                      onDragLeave={[Function]}
+                      onDragOver={[Function]}
+                      onDrop={[Function]}
+                    >
+                      <span
+                        className="ant-tree-switcher ant-tree-switcher_close"
+                        onClick={[Function]}
+                      />
+                      <span
+                        className="ant-tree-checkbox"
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="ant-tree-checkbox-inner"
+                        />
+                      </span>
+                      <span
+                        aria-grabbed={true}
+                        className="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-close draggable"
+                        draggable={true}
+                        onClick={[Function]}
+                        onContextMenu={[Function]}
+                        onDragStart={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        title="hhh"
+                      >
+                        <span
+                          className="ant-tree-title"
+                        >
+                          hhh
+                        </span>
+                      </span>
+                      <Animate
+                        animation={
+                          Object {
+                            "appear": [Function],
+                            "enter": [Function],
+                            "leave": [Function],
+                          }
+                        }
+                        component=""
+                        componentProps={Object {}}
+                        onAppear={[Function]}
+                        onEnd={[Function]}
+                        onEnter={[Function]}
+                        onLeave={[Function]}
+                        showProp="data-expanded"
+                        transitionAppear={true}
+                        transitionEnter={true}
+                        transitionLeave={true}
+                      />
+                    </li>
+                  </TreeNode>
+                  <TreeNode
+                    checked={false}
+                    dragOver={false}
+                    dragOverGapBottom={false}
+                    dragOverGapTop={false}
+                    eventKey="17"
+                    expanded={false}
+                    halfChecked={false}
+                    key=".$17"
+                    pos="0-3"
+                    selected={false}
+                    title="rrr"
+                  >
+                    <li
+                      className=""
+                      onDragEnd={[Function]}
+                      onDragEnter={[Function]}
+                      onDragLeave={[Function]}
+                      onDragOver={[Function]}
+                      onDrop={[Function]}
+                    >
+                      <span
+                        className="ant-tree-switcher ant-tree-switcher_close"
+                        onClick={[Function]}
+                      />
+                      <span
+                        className="ant-tree-checkbox"
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="ant-tree-checkbox-inner"
+                        />
+                      </span>
+                      <span
+                        aria-grabbed={true}
+                        className="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-close draggable"
+                        draggable={true}
+                        onClick={[Function]}
+                        onContextMenu={[Function]}
+                        onDragStart={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        title="rrr"
+                      >
+                        <span
+                          className="ant-tree-title"
+                        >
+                          rrr
+                        </span>
+                      </span>
+                      <Animate
+                        animation={
+                          Object {
+                            "appear": [Function],
+                            "enter": [Function],
+                            "leave": [Function],
+                          }
+                        }
+                        component=""
+                        componentProps={Object {}}
+                        onAppear={[Function]}
+                        onEnd={[Function]}
+                        onEnter={[Function]}
+                        onLeave={[Function]}
+                        showProp="data-expanded"
+                        transitionAppear={true}
+                        transitionEnter={true}
+                        transitionLeave={true}
+                      />
+                    </li>
+                  </TreeNode>
+                </ul>
+              </Tree>
+            </Tree>
+          </div>
+        </Col>
+      </div>
+    </Row>
+    <Row
+      gutter={0}
+      justify="center"
+      style={
+        Object {
+          "margin": "0 auto",
+          "maxWidth": "600px",
+        }
+      }
+      type="flex"
+    >
+      <div
+        className="ant-row-flex ant-row-flex-center"
+        style={
+          Object {
+            "margin": "0 auto",
+            "maxWidth": "600px",
+          }
+        }
+      >
+        <Col
+          key=".0"
+        >
+          <div
+            className=""
+          >
+            <h1>
+              Node Picker Assignment
+            </h1>
+            <h2>
+              Requirements
+            </h2>
+            <ul>
+              <li>
+                A list of Nodes, each with a reference to their parent, should be displayed hierarchically
+              </li>
+              <li>
+                The user should be able to select one or many nodes arbitrarily
+              </li>
+              <li>
+                Selected nodes should be visually highlighted somehow
+              </li>
+            </ul>
+            <h3>
+              Bonus tasks
+            </h3>
+            <ul>
+              <li>
+                The user should be able to select groups (a node and its 
+                <u>
+                  immediate
+                </u>
+                 children, no recursion required) without selecting every node individually).
+              </li>
+              <li>
+                Add some tests where you think the code could benefit from having tests.
+              </li>
+            </ul>
+            <p>
+              The solution does not need to be visually styled in any special way. The hierarchy and the selection should be visible of course.
+            </p>
+            <h2>
+              Get Started
+            </h2>
+            <p>
+              You can find the required list of nodes in the nodes.ts file:
+            </p>
+            [
+                {
+                    "id": 0,
+                    "name": "aaa"
+                },
+                {
+                    "id": 1,
+                    "name": "bbb",
+                    "parent": 0
+                },
+                {
+                    "id": 2,
+                    "name": "ccc",
+                    "parent": 0
+                },
+                {
+                    "id": 3,
+                    "name": "ddd"
+                },
+                {
+                    "id": 4,
+                    "name": "eee",
+                    "parent": 3
+                },
+                {
+                    "id": 5,
+                    "name": "fff",
+                    "parent": 3
+                },
+                {
+                    "id": 6,
+                    "name": "ggg",
+                    "parent": 3
+                },
+                {
+                    "id": 7,
+                    "name": "hhh"
+                },
+                {
+                    "id": 8,
+                    "name": "iii",
+                    "parent": 7
+                },
+                {
+                    "id": 9,
+                    "name": "jjj",
+                    "parent": 8
+                },
+                {
+                    "id": 10,
+                    "name": "kkk",
+                    "parent": 9
+                },
+                {
+                    "id": 11,
+                    "name": "lll",
+                    "parent": 9
+                },
+                {
+                    "id": 12,
+                    "name": "mmm",
+                    "parent": 9
+                },
+                {
+                    "id": 13,
+                    "name": "nnn",
+                    "parent": 8
+                },
+                {
+                    "id": 14,
+                    "name": "ooo",
+                    "parent": 13
+                },
+                {
+                    "id": 15,
+                    "name": "ppp",
+                    "parent": 13
+                },
+                {
+                    "id": 16,
+                    "name": "qqq",
+                    "parent": 13
+                },
+                {
+                    "id": 17,
+                    "name": "rrr"
+                },
+                {
+                    "id": 18,
+                    "name": "sss",
+                    "parent": 17
+                },
+                {
+                    "id": 19,
+                    "name": "ttt",
+                    "parent": 17
+                },
+                {
+                    "id": 20,
+                    "name": "uuu",
+                    "parent": 19
+                },
+                {
+                    "id": 21,
+                    "name": "vvv",
+                    "parent": 19
+                },
+                {
+                    "id": 22,
+                    "name": "www",
+                    "parent": 17
+                },
+                {
+                    "id": 23,
+                    "name": "xxx",
+                    "parent": 17
+                },
+                {
+                    "id": 24,
+                    "name": "yyy",
+                    "parent": 23
+                },
+                {
+                    "id": 25,
+                    "name": "zzz",
+                    "parent": 23
+                }
+            ]
+            {}
+            <p>
+              Good luck and please don't hesitate to as if anything is unclear.
+            </p>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </div>
+</App>
+`;

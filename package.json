@@ -1,0 +1,26 @@
+{
+  "name": "js-exercise",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.5.3",
+    "chai": "^4.1.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "mocha": "^5.2.0",
+    "rc-tree": "^1.11.4",
+    "react": "^16.1.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17",
+    "react-test-renderer": "^16.4.0",
+    "sinon": "^5.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
